@@ -1,0 +1,129 @@
+.container {
+  margin: 0px 10px 30px 10px;
+  padding: 0px;
+}
+
+.myMonth {
+  text-align: center;
+  margin-right: 1vh;
+  padding-left: 1vh; 
+}
+
+/* .brd {
+  border: 1px solid #DFE0E1;
+  margin: 0px -1px -16px 0px;
+  padding: 0px 0px -10px 0px;
+
+} */
+
+/* .h-btn {
+  
+} */
+
+.disp-7 {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+#h {
+  overflow-y: scroll;
+  max-height: 200px;
+}
+
+.hour {
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  text-align: left;
+  /* border-bottom: 1px solid gray; */
+}
+/* .events-ul {
+  overflow: auto;
+  font-size:x-small;
+  min-width: 2vh;
+  max-width: 5vh;
+  height: 50px;
+}
+
+.events {
+  list-style-type: none;
+  text-align: left;
+  color: red;
+} */
+
+/* .tooltip-txt {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  /* position: absolute;
+  z-index: 1; */
+/* }  */
+
+/* .tooltip:hover .tooltip-txt {
+  visibility: visible; */
+/* } */
+p {
+  margin-right: 15vh;
+  width: 50px !important;
+  padding-right: 1vh;
+  font-size: small;
+  text-overflow: hidden;
+}
+
+
+span {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  width: 60px;
+  padding: 3px 0;
+  font-size: small;
+  margin-bottom: 30px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+p:hover span {
+  visibility: visible;
+}
+
+.events:before{
+  content: '-'
+}
+
+.day-num {
+  text-align: right;
+  border: 1px solid #DFE0E1;
+  max-width: 50vh;
+  min-width: 14vh;
+  max-height: 18vh;
+  min-height: 15vh;
+}
+
+.day {
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #DFE0E1;
+  max-width: 60vh;
+  max-height: 30vh;
+  min-width: 14vh;
+}
+.other-months {
+  background-color: #D9D7D7;
+  color: gray;
+}
+
+.today {
+  background: #BCEBF5;
+}

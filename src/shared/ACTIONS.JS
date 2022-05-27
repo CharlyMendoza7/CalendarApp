@@ -1,0 +1,4 @@
+export const ADD_TYPE = 'add';
+export const UPDATE_TYPE = 'update';
+export const PREV_TYPE = 'prev';
+export const NEXT_TYPE = 'next'
